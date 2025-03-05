@@ -1,9 +1,5 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+@import "./global.css";
 
-h1 {
-  color: blueviolet;
-}
+@import "./components/bookmark.css";
+@import "./components/header.css";
+@import "./components/navbar.css";
