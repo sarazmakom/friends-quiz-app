@@ -10,8 +10,5 @@
 
 .header__title {
   text-align: center;
-}
-
-h1 {
   color: var(--black);
 }
