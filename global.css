@@ -7,13 +7,11 @@
 }
 
 :root {
-  --primary: #79dba8;
-  --secondary: #79599e;
-  --background: var(--primary);
-}
-
-h1 {
-  color: var(--secondary);
+  --green: #79dba8;
+  --purple: #79599e;
+  --pink: #f08aa7;
+  --background: var(--green);
+  --black: #252629;
 }
 
 body {
