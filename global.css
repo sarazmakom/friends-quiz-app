@@ -10,10 +10,16 @@
   --green: #79dba8;
   --purple: #79599e;
   --pink: #f08aa7;
-  --background: var(--green);
+  --lightpink: #fddcd2;
+  --background: var(--pink);
   --black: #252629;
 }
 
 body {
   background-color: var(--background);
+}
+
+ul li {
+  list-style: none;
+  padding: 0;
 }
