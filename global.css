@@ -8,18 +8,42 @@
 
 :root {
   --green: #79dba8;
-  --purple: #79599e;
+  --purple: #6e0cdf;
   --pink: #f08aa7;
   --lightpink: #fddcd2;
   --background: var(--pink);
   --black: #252629;
+  --font-primary: "Agu Display", Verdana;
 }
 
 body {
+  /* line-height: 1.5; */
+  font-family: var(--font-primary);
   background-color: var(--background);
 }
 
-ul li {
+ul {
   list-style: none;
   padding: 0;
+  margin: 0;
+}
+
+button {
+  /* font-size: var(--fs-400); */
+  font-family: var(--font-primary);
+  color: var(--black);
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+}
+
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
 }
