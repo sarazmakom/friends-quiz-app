@@ -8,7 +8,7 @@
 
 .card__question {
   margin: 0 0 2rem;
-  font-family: Agu Display;
+  font-family: var(--font-primary);
 }
 
 .card__button-answer {
@@ -28,7 +28,7 @@
 
 .card__answer {
   margin: 0 2rem;
-  font-family: Agu Display;
+  font-family: var(--font-primary);
   display: none;
 }
 

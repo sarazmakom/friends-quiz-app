@@ -13,9 +13,11 @@
   --lightpink: #fddcd2;
   --background: var(--pink);
   --black: #252629;
+  --font-primary: "Agu Display", Verdana;
 }
 
 body {
+  font-family: var(--font-primary);
   background-color: var(--background);
 }
 
