@@ -23,3 +23,9 @@ cards.forEach((card) => {
     answerDisplay.classList.toggle("card__answer--active");
   });
 });
+
+const darkModeToggle = document.querySelector('[data-js="darkmode-input"]');
+
+darkModeToggle.addEventListener("change", () => {
+  document.body.classList.toggle("dark-mode");
+});
