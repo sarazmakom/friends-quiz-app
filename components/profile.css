@@ -11,9 +11,6 @@
   align-items: center;
   justify-content: space-around;
 }
-.header__title {
-  font-family: --font-primary;
-}
 
 .profile__card-img {
   border-radius: 50%;
