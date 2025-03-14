@@ -21,7 +21,7 @@ body {
   background-color: var(--background);
 }
 
-ul li {
+ul {
   list-style: none;
   padding: 0;
 }
