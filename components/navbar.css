@@ -18,10 +18,9 @@
 }
 
 .navigation__list-item--active {
-  background-color: var(--secondary-light);
+  background-color: var(--lightpink);
   color: var(--black);
   border-left: 3px solid var(--black);
-
 }
 
 .navigation__list-item:not(:first-child) {
@@ -36,7 +35,7 @@
   display: flex;
   justify-content: center;
 }
-/* 
+
 .navigation__link svg {
   fill: currentcolor;
-} */
+}
