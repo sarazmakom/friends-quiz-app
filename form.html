@@ -9,7 +9,7 @@
       href="https://fonts.googleapis.com/css?family=Agu Display"
       rel="stylesheet"
     />
-    <script src="./index.js" defer></script>
+    <script src="./form.js" defer></script>
   </head>
   <body>
     <header class="header">
@@ -17,10 +17,10 @@
     </header>
 
     <fieldset>
-      <form>
-        <textarea class="question">My question</textarea>
-        <textarea class="answer">My answer</textarea>
-        <input type="text" />
+      <form data-js="form" id="form">
+        <textarea class="question" data-js="question">Type a question</textarea>
+        <textarea class="answer" data-js="answer">Type an answer</textarea>
+        <input type="text" data-js="tag" value="Type a tag" />
         <button type="submit" class="form">Submit</button>
       </form>
     </fieldset>
