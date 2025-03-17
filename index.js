@@ -24,8 +24,3 @@ cards.forEach((card) => {
   });
 });
 
-const darkModeToggle = document.querySelector('[data-js="darkmode-input"]');
-
-darkModeToggle.addEventListener("change", () => {
-  document.body.classList.toggle("dark-mode");
-});
